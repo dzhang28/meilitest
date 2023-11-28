@@ -1,0 +1,2 @@
+# meilitest
+Tests on meilisearch
