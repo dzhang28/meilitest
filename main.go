@@ -11,7 +11,7 @@ import (
 func main() {
 	client := meilisearch.NewClient(meilisearch.ClientConfig{
 		Host:   "http://localhost:7700",
-		APIKey: aSampleMasterKey,
+		APIKey: "aSampleMasterKey",
 	})
 
 	jsonFile, _ := os.Open("movies.json")
